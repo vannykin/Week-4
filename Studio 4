@@ -8,3 +8,5 @@ function pascal(row, position) {
 pascal(4, 2);
 
 // iterative process
+
+// Question 2: recursive process
