@@ -1,3 +1,4 @@
+// recursive process
 function pascal(row, position) {
     return position === 0 || position === row
            ? 1
@@ -5,3 +6,5 @@ function pascal(row, position) {
 }
 
 pascal(4, 2);
+
+// iterative process
