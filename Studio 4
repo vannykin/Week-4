@@ -10,3 +10,15 @@ pascal(4, 2);
 // iterative process
 
 // Question 2: recursive process
+
+// in-class exercise
+// question 1: 1 and 1 (log by default is ln)
+
+// question 2:
+// compose(compose(f, f), f)(math_sqrt)(256)
+// compose(compose(x => sqrt(x), x => sqrt(x)), x => sqrt(x))(256)
+// compose(compose(x => sqrt(x), x => sqrt(x)), x => sqrt(x))(256)
+// compose(x => sqrt(sqrt(x)), sqrt(x))(256)
+// (x => sqrt(sqrt(sqrt(x))))(256)
+// sqrt(sqrt(sqrt(256)))
+// 2
