@@ -22,3 +22,20 @@ pascal(4, 2);
 // (x => sqrt(sqrt(sqrt(x))))(256)
 // sqrt(sqrt(sqrt(256)))
 // 2
+
+// function repeated(f, n) {
+// return n === 0
+// ? x => x
+// : compose(f, repeated(f, n - 1));
+// }
+// to get thrice, n === 3
+// result = 9
+
+// question 4a: 15
+// question 4b: it will just return the compose function, which is:
+// //function compose(f, g) {
+//     return f(g(x));
+// }
+// question 4c: 1
+// question 4d: 2^512
+
