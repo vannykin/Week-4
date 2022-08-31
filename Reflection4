@@ -1,1 +1,30 @@
+// Reflection 4 Question 2:
+// part a
+draw_data(pair(1, pair(2, pair(3, null))));
 
+display_list(pair(1, pair(2, pair(3, null))));
+
+// part b
+draw_data(pair(1, pair(2, 3)));
+
+display_list(pair(1, pair(2, 3)));
+
+// part c
+pair(pair(1, pair(2, null)), pair(pair(3, pair(4, null)), 
+                                        pair(pair(5, pair(6, null)), null)));
+
+// Question 3: get 4
+// part a
+const lst = list(7, 6, 5, 4, 3, 2, 1);
+draw_data(lst);
+head(tail(tail(tail(lst))));
+
+// part b
+const lst = list(list(7), list(6, 5, 4), list(3, 2), 1);
+draw_data(lst);
+head(tail(tail(head(tail(lst)))));
+
+// part c
+const lst = list(7, list(list(list(6, 5, list(list(4)), 3), 2)), 1);
+draw_data(lst);
+head(head(head(tail(tail(head(head(head(tail(lst)))))))));
